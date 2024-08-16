@@ -59,14 +59,8 @@
 
                         }
 
-                       
-
-
-
-
-
-
                     </div>
+
                     <div class="col-12 col-lg-6 offset-lg-1">
 
                         <div class="col-12 col-md-6 pb-4">
@@ -76,12 +70,17 @@
                             <h6 class="text-dark text-opacity-50 ">ISBN : @Model.Product.ISBN</h6>
                         </div>
                         <div class="row ps-2">
-                            <h6 class="text-dark text-opacity-50  pb-2">
+                            <h6 class="text-dark text-opacity-50">
                                 List Price:
                                 <span class="text-decoration-line-through">
                                     @Model.Product.ListPrice.ToString("c")
                                 </span>
                             </h6>
+                        </div>
+                        <div>
+                            <div class="row ps-2">
+                                <h6 class="text-dark text-opacity-50 ">Stock Remaining : @Model.Product.StockQuantity</h6>
+                            </div>
                         </div>
                         <div class="row text-center ps-2">
                             <div class="p-1 col-3 col-lg-2 bg-white border-bottom">
