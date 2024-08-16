@@ -49,5 +49,11 @@ namespace BulkyBook.Models
 
         [ValidateNever]
         public List<ProductImage> ProductImages { get; set; }
+
+        // Thêm thuộc tính StockQuantity
+        [Required]
+        [Display(Name = "Stock Quantity")]
+        [Range(0, int.MaxValue, ErrorMessage = "Please enter a valid quantity")]
+        public int StockQuantity { get; set; }
     }
 }

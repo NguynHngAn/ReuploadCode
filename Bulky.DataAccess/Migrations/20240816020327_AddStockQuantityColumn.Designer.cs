@@ -4,6 +4,7 @@ using BulkyBook.DataAcess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BulkyBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240816020327_AddStockQuantityColumn")]
+    partial class AddStockQuantityColumn
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -292,7 +295,7 @@ namespace BulkyBook.DataAccess.Migrations
                             Price = 90.0,
                             Price100 = 80.0,
                             Price50 = 85.0,
-                            StockQuantity = 99,
+                            StockQuantity = 0,
                             Title = "Fortune of Time"
                         },
                         new
@@ -306,7 +309,7 @@ namespace BulkyBook.DataAccess.Migrations
                             Price = 30.0,
                             Price100 = 20.0,
                             Price50 = 25.0,
-                            StockQuantity = 99,
+                            StockQuantity = 0,
                             Title = "Dark Skies"
                         },
                         new
@@ -320,7 +323,7 @@ namespace BulkyBook.DataAccess.Migrations
                             Price = 50.0,
                             Price100 = 35.0,
                             Price50 = 40.0,
-                            StockQuantity = 99,
+                            StockQuantity = 0,
                             Title = "Vanish in the Sunset"
                         },
                         new
@@ -334,7 +337,7 @@ namespace BulkyBook.DataAccess.Migrations
                             Price = 65.0,
                             Price100 = 55.0,
                             Price50 = 60.0,
-                            StockQuantity = 99,
+                            StockQuantity = 0,
                             Title = "Cotton Candy"
                         },
                         new
@@ -348,7 +351,7 @@ namespace BulkyBook.DataAccess.Migrations
                             Price = 27.0,
                             Price100 = 20.0,
                             Price50 = 25.0,
-                            StockQuantity = 99,
+                            StockQuantity = 0,
                             Title = "Rock in the Ocean"
                         },
                         new
@@ -362,7 +365,7 @@ namespace BulkyBook.DataAccess.Migrations
                             Price = 23.0,
                             Price100 = 20.0,
                             Price50 = 22.0,
-                            StockQuantity = 99,
+                            StockQuantity = 0,
                             Title = "Leaves and Wonders"
                         });
                 });
