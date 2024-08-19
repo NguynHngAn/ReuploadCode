@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\product\\e8064fd8-4d6d-4715-8450-061cb6ea9c15.jpg"
     },
     {
+      "Id": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\images\\products\\product-13\\13555b6b-1ebf-4629-87c4-a6f7bf8f0180.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-13\\13555b6b-1ebf-4629-87c4-a6f7bf8f0180.jpg"
+    },
+    {
       "Id": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\images\\products\\product-1\\0f09982d-d0b7-4571-9ada-1267ad925470.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-1\\0f09982d-d0b7-4571-9ada-1267ad925470.jpg"
     },
@@ -143,10 +147,6 @@
     {
       "Id": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\images\\products\\product-6\\e062cd40-b6a9-4f88-9070-188951b7e85d.jpg",
       "PackagePath": "staticwebassets\\images\\products\\product-6\\e062cd40-b6a9-4f88-9070-188951b7e85d.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\images\\products\\product-9\\7ba5984f-d0c2-46de-8557-29ef1350d826.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\product-9\\7ba5984f-d0c2-46de-8557-29ef1350d826.jpg"
     },
     {
       "Id": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\js\\company.js",

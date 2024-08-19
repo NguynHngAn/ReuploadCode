@@ -31,6 +31,12 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        @if (User.IsInRole(SD.Role_Admin))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Revenue" asp-action="Index">Revenue</a>
+                            </li>
+                        }
 
                         <li class="nav-item">
                             <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Manage Order</a>
@@ -96,8 +102,9 @@
 
     <script src="https://cdn.tiny.cloud/1/pei9jswn2dtzr61lf7mg5isyseq0hfmb1ktl1ghoqsyw7u4c/tinymce/7/tinymce.min.js" referrerpolicy="origin">
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

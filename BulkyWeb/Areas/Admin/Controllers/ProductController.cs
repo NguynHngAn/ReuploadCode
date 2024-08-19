@@ -53,9 +53,19 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             }
             
         }
+
         [HttpPost]
         public IActionResult Upsert(ProductVM productVM, List<IFormFile> files)
         {
+            // Kiểm tra trùng lặp Title
+            var existingProduct = _unitOfWork.Product.Get(u => u.Title == productVM.Product.Title);
+
+            // Nếu tìm thấy sản phẩm có cùng Title và đó không phải là sản phẩm hiện tại
+            if (existingProduct != null && existingProduct.Id != productVM.Product.Id)
+            {
+                TempData["error"] = "The title must be unique.";
+            }
+
             if (ModelState.IsValid)
             {
                 if (productVM.Product.Id == 0) {
@@ -99,10 +109,6 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
                     _unitOfWork.Product.Update(productVM.Product);
                     _unitOfWork.Save();
-
-
-
-
                 }
 
                 
