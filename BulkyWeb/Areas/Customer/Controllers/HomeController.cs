@@ -46,27 +46,54 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
             var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
             shoppingCart.ApplicationUserId = userId;
 
-            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(u=>u.ApplicationUserId == userId &&
-            u.ProductId==shoppingCart.ProductId);
+            // Giả sử bạn có một thuộc tính trong đối tượng shoppingCart để lấy số lượng tồn kho hiện tại
+            var productFromDb = _unitOfWork.Product.Get(u => u.Id == shoppingCart.ProductId);
 
-            if (cartFromDb != null) {
+            if (productFromDb == null || productFromDb.StockQuantity < shoppingCart.Count)
+            {
+                // Nếu không tìm thấy sản phẩm hoặc số lượng yêu cầu vượt quá số lượng tồn kho
+                TempData["error"] = "Không đủ số lượng hàng tồn kho.";
+                return RedirectToAction(nameof(Index));
+            }
+
+
+            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart
+                .Get(u=>u.ApplicationUserId == userId &&
+                        u.ProductId==shoppingCart.ProductId);
+
+            if (cartFromDb != null)
+            {
+                // Kiểm tra tổng số lượng trong giỏ và số lượng mới có vượt quá hàng tồn kho không
+                if (cartFromDb.Count + shoppingCart.Count > productFromDb.StockQuantity)
+                {
+                    TempData["error"] = "Không đủ số lượng hàng tồn kho.";
+                    return RedirectToAction(nameof(Index));
+                }
+
                 //shopping cart exists
                 cartFromDb.Count += shoppingCart.Count;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);
                 _unitOfWork.Save();
             }
-            else {
+            else
+            {
+                // Kiểm tra số lượng mới có vượt quá hàng tồn kho không
+                if (shoppingCart.Count > productFromDb.StockQuantity)
+                {
+                    TempData["error"] = "Không đủ số lượng hàng tồn kho.";
+                    return RedirectToAction(nameof(Index));
+                }
+
                 //add cart record
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
                 _unitOfWork.Save();
                 HttpContext.Session.SetInt32(SD.SessionCart,
                 _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
             }
-            TempData["success"] = "Cart updated successfully";
 
+            TempData["success"] = "Cart updated successfully";
             return RedirectToAction(nameof(Index));
         }
-
         public IActionResult Privacy()
         {
             return View();

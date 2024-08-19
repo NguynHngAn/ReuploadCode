@@ -187,24 +187,38 @@ namespace BulkyBookWeb.Areas.Customer.Controllers {
 		}
 
 
-		public IActionResult Plus(int cartId) {
+        public IActionResult Plus(int cartId)
+        {
             var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
-            cartFromDb.Count += 1;
-            _unitOfWork.ShoppingCart.Update(cartFromDb);
-            _unitOfWork.Save();
+            var productFromDb = _unitOfWork.Product.Get(p => p.Id == cartFromDb.ProductId); // Lấy thông tin sản phẩm từ DB
+
+            if (cartFromDb.Count < productFromDb.StockQuantity)
+            {
+                // Kiểm tra nếu số lượng trong giỏ nhỏ hơn số lượng tồn kho thì mới tăng
+                cartFromDb.Count += 1;
+                _unitOfWork.ShoppingCart.Update(cartFromDb);
+                _unitOfWork.Save();
+            }
+            else
+            {
+                TempData["error"] = "Không đủ số lượng hàng tồn kho.";
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Minus(int cartId) {
+        public IActionResult Minus(int cartId)
+        {
             var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
-            if (cartFromDb.Count <= 1) {
+            if (cartFromDb.Count <= 1)
+            {
                 //remove that from cart
-                
                 _unitOfWork.ShoppingCart.Remove(cartFromDb);
                 HttpContext.Session.SetInt32(SD.SessionCart, _unitOfWork.ShoppingCart
                     .GetAll(u => u.ApplicationUserId == cartFromDb.ApplicationUserId).Count() - 1);
             }
-            else {
+            else
+            {
                 cartFromDb.Count -= 1;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);
             }
@@ -212,7 +226,6 @@ namespace BulkyBookWeb.Areas.Customer.Controllers {
             _unitOfWork.Save();
             return RedirectToAction(nameof(Index));
         }
-
         public IActionResult Remove(int cartId) {
             var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
            

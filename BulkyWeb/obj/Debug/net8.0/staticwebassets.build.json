@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ncUPZ9B9DYZliMXmlQhTnX5uQGCeg+4HOkxhMheyDoM=",
+  "Hash": "PfNwJdCIZ9lp5lkeFiigObL01eYUvexXLFn2ZO2IJhY=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -1858,6 +1858,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\product-6\\e062cd40-b6a9-4f88-9070-188951b7e85d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\images\\products\\product-9\\7ba5984f-d0c2-46de-8557-29ef1350d826.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/product-9/7ba5984f-d0c2-46de-8557-29ef1350d826.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\product-9\\7ba5984f-d0c2-46de-8557-29ef1350d826.jpg"
     },
     {
       "Identity": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\wwwroot\\js\\company.js",
