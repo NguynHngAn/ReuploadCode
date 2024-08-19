@@ -1,4 +1,4 @@
-﻿@model BulkyBook.Models.ViewModels.RevenueViewModel
+﻿@model RevenueVM
 
 <div class="container mt-4">
     <h2 class="text-center">Revenue Report</h2>
@@ -9,7 +9,7 @@
                     <h4 class="text-center">As of @Model.Date.ToString("MM/dd/yyyy")</h4>
                 </div>
                 <div class="card-body text-center">
-                    <h5>Total Revenue: @Model.TotalRevenue.ToString("C")</h5>
+                    <h5>Total Revenue: @Model.TotalRevenue.ToString("c")</h5>
                     <h5>Total Orders: @Model.TotalOrders</h5>
                 </div>
             </div>
@@ -26,16 +26,18 @@
                         <th>Customer Name</th>
                         <th>Order Date</th>
                         <th>Total Amount</th>
+                        <th>Status</th> <!-- Thêm cột Status -->
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var order in Model.PaidOrders)
+                    @foreach (var item in Model.PaidOrders.OrderBy(item => item.Id))
                     {
                         <tr>
-                            <td>@order.Id</td>
-                            <td>@order.ApplicationUser.Name</td> <!-- Hiển thị tên khách hàng từ ApplicationUser -->
-                            <td>@order.OrderDate.ToString("MM/dd/yyyy")</td> <!-- Hiển thị ngày đặt hàng -->
-                            <td>@order.OrderTotal.ToString("C")</td> <!-- Hiển thị tổng số tiền -->
+                            <td>@item.Id</td>
+                            <td>@item.ApplicationUser.Name</td>
+                            <td>@item.OrderDate.ToString("MM/dd/yyyy")</td>
+                            <td>@item.OrderTotal.ToString("c")</td>
+                            <td>@item.OrderStatus</td> <!-- Hiển thị trạng thái đơn hàng -->
                         </tr>
                     }
                 </tbody>

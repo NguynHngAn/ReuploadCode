@@ -119,8 +119,13 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             public string? StreetAddress { get; set; }
             public string? City { get; set; }
             public string? State { get; set; }
-            public string? PostalCode { get; set; }
+            [Required(ErrorMessage = "Phone number is required.")]
+            [RegularExpression(@"^\d{10}$", ErrorMessage = "Invalid phone number. It should be 10 digits.")]
             public string? PhoneNumber { get; set; }
+
+            [Required(ErrorMessage = "Postal code is required.")]
+            [RegularExpression(@"^\d{5}(-\d{4})?$", ErrorMessage = "Invalid postal code format.")]
+            public string? PostalCode { get; set; }
             public int? CompanyId { get; set; }
             [ValidateNever]
             public IEnumerable<SelectListItem> CompanyList { get; set; }

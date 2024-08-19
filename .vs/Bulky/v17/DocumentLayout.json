@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E222D6C-F754-425E-A116-8142B42A0392}|Bulky.DataAccess\\BulkyBook.DataAccess.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulky.dataaccess\\repository\\orderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E222D6C-F754-425E-A116-8142B42A0392}|Bulky.DataAccess\\BulkyBook.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\orderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\admin\\views\\revenue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\revenue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\admin\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulky.models\\viewmodels\\revenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|solutionrelative:bulky.models\\viewmodels\\revenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulky.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|solutionrelative:bulky.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulky.models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|solutionrelative:bulky.models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulky.models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|solutionrelative:bulky.models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulky.models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +29,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\admin\\views\\revenue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\revenue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\admin\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulky.models\\viewmodels\\revenuevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A07E25D8-385A-4A02-91A1-3E7386101291}|Bulky.Models\\BulkyBook.Models.csproj|solutionrelative:bulky.models\\viewmodels\\revenuevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|c:\\users\\acer\\downloads\\clone code\\bulky_mvc\\bulkyweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8D88C5-3629-4BAE-8150-5277DB023ADF}|BulkyWeb\\BulkyBookWeb.csproj|solutionrelative:bulkyweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,66 +75,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderHeaderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.DataAccess\\Repository\\OrderHeaderRepository.cs",
-              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\OrderHeaderRepository.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.DataAccess\\Repository\\OrderHeaderRepository.cs",
-              "RelativeToolTip": "Bulky.DataAccess\\Repository\\OrderHeaderRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAowB0AAAA2AAAA",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAswM8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:59:22.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RevenueViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ViewModels\\RevenueViewModel.cs",
-              "RelativeDocumentMoniker": "Bulky.Models\\ViewModels\\RevenueViewModel.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ViewModels\\RevenueViewModel.cs",
-              "RelativeToolTip": "Bulky.Models\\ViewModels\\RevenueViewModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:58:12.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Bulky.Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Bulky.Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:51:59.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
-              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
-              "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
-              "ViewState": "AQIAAA4AAAAAAAAAAADwvy0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T04:50:03.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RevenueController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
-              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
-              "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAwwB0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:49:50.995Z",
+              "WhenOpened": "2024-08-19T11:35:17.914Z",
               "EditorCaption": ""
             },
             {
@@ -125,9 +93,35 @@
               "RelativeDocumentMoniker": "Bulky.Models\\OrderHeader.cs",
               "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\OrderHeader.cs",
               "RelativeToolTip": "Bulky.Models\\OrderHeader.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCMAAAAvAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwCsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:48:00.117Z",
+              "WhenOpened": "2024-08-19T11:18:30.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\Category.cs",
+              "RelativeDocumentMoniker": "Bulky.Models\\Category.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\Category.cs",
+              "RelativeToolTip": "Bulky.Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:18:29.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAwEMAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:03:27.899Z",
               "EditorCaption": ""
             },
             {
@@ -138,10 +132,96 @@
               "RelativeDocumentMoniker": "BulkyWeb\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BulkyWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAADwv18AAAANAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwF0AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T04:44:23.573Z",
+              "WhenOpened": "2024-08-19T10:58:08.885Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\Company.cs",
+              "RelativeDocumentMoniker": "Bulky.Models\\Company.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\Company.cs",
+              "RelativeToolTip": "Bulky.Models\\Company.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T10:48:48.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Bulky.Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Bulky.Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T10:48:34.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T07:04:57.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwMwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:01:51.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RevenueVM.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ViewModels\\RevenueVM.cs",
+              "RelativeDocumentMoniker": "Bulky.Models\\ViewModels\\RevenueVM.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\Bulky.Models\\ViewModels\\RevenueVM.cs",
+              "RelativeToolTip": "Bulky.Models\\ViewModels\\RevenueVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T06:54:03.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RevenueController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Controllers\\RevenueController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAC4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T06:53:28.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\Clone code\\Bulky_MVC\\BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Views\\Revenue\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvxsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T06:49:54.685Z"
             }
           ]
         }
