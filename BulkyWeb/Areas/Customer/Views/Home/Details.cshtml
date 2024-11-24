@@ -1,5 +1,15 @@
 ﻿@model ShoppingCart
 
+@section MyStyles {
+    <meta property="og:title" content="@Model.Product" />
+
+    <meta property="og:description" content="@Model." />
+
+    <meta property="og:url" content="https://aspmvcfinal.azurewebsites.net/Customer/Home/Details?@Model.ProductId" />
+
+    <meta property="og:image" content="https://aspmvcfinal.azurewebsites.net/images/products/product-1/@Model.ImageUrl" />
+}
+
 <form method="post">
     <input hidden asp-for="ProductId" />
     <div class="card shadow border-0 mt-4 mb-4">
