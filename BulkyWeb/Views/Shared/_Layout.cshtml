@@ -95,11 +95,6 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            <partial name="_Notification" />
-            @RenderBody()
             <div id="mc_embed_shell">
                   <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
               <style type="text/css">
@@ -117,6 +112,11 @@
                         <div class="response" id="mce-success-response" style="display: none;"></div>
                     </div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_4d5937a167c5aeadebe799148_15efd250bb" tabindex="-1" value=""></div><div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe"></div>
                 </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <partial name="_Notification" />
+            @RenderBody()
             <div class="sharethis-inline-share-buttons"></div>
         </main>
     </div>
